@@ -1,0 +1,4 @@
+<h1><%= "#{@team}" %></h1>
+<% @team_hash[@team].each do |position, player| %>
+  <%= "<p> #{player}: #{position} </p>" %>
+<% end %>

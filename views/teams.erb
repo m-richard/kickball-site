@@ -1,0 +1,5 @@
+<ul>
+<% @team_hash.each do |team_name, player| %>
+  <li><a href="/teams/<%= team_name %>"><%= team_name %></a></li>
+  <% end %>
+</ul>
